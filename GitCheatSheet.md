@@ -12,6 +12,9 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 `open ~/.ssh/config`
 
+- Check which SSH key
+`ssh -vT git@github.com`
+
 - Change config
 ```
 git config --global user.name "Sean"
